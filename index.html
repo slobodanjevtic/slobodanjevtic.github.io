@@ -2,17 +2,51 @@
 <html>
 <head>
 	<title>Bela zemlja</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-image: url('resources/background-image.jpg');
+			background-size: cover;
+			background-position: center;
+			color: #ffffff;
+			font-family: Arial, sans-serif;
+			font-size: 18px;
+			line-height: 1.5;
+		}
+		
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.5);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+		}
+		
+		p {
+			font-size: 24px;
+			margin-bottom: 40px;
+		}
+	</style>
 </head>
 <body>
-	<h1>Welcome to Bela zemlja!</h1>
-	<p>We're excited to introduce our new company to the world. Our mission is to change the game in our industry and provide innovative solutions to our customers.</p>
-	
-	<h2>About Us</h2>
-	<p>Our team is made up of experts in the field who are passionate about what we do. We have a deep understanding of the industry and are dedicated to creating products that meet the needs of our customers.</p>
-	
-	<h2>Contact Us</h2>
-	<p>If you have any questions or are interested in learning more about our products, please don't hesitate to contact us:</p>
-	<p>Phone: 555-555-5555</p>
-	<p>Email: info@startup.com</p>
+	<div class="overlay">
+		<h1>Welcome to Bela zemlja!</h1>
+		<p>We're excited to introduce our new company to the world. Our mission is to change the game in our industry and provide innovative solutions to our customers.</p>
+		<p>If you have any questions or are interested in learning more about our products, please don't hesitate to contact us:</p>
+		<p>Phone: 555-555-5555</p>
+		<p>Email: info@startup.com</p>
+	</div>
 </body>
 </html>
